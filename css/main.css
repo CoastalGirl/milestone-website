@@ -1,0 +1,195 @@
+/******Base Styles*****/
+body{
+	font-family: Source Code Pro;
+	background-color: #1f202b;
+    color:#ffffff;
+}
+
+#header, #portfolio, #about, #contact{
+	height: 30px;
+}
+
+.full-width{
+	width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+#container-one{
+		padding-right: 40px;
+		padding-bottom:55px;
+}
+#container-two{
+	margin-right:10px;
+	padding-bottom: 55px;
+}
+
+/*****Grid*******/
+/****Header*****/
+header {
+    height: 700px;
+    background: url('../img/hero-background.png');
+    background-size: cover;
+}
+
+header h1 { 
+    font-family: Oswald, bold;
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 150px;
+}
+
+header h1 span{
+	color: #f70074;
+}
+
+header h2{
+	font-family: Montserrat;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: lowercase;
+}
+
+nav{
+	float:right;
+	padding-top: 0px;
+	background-color: #1f202b;	
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+   text-transform: lowercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding-right: 35px; 
+    padding-left: 1px;
+}
+
+/*****My Portfolio****/
+#portfolio h1{
+	font-family: Source Code Pro,semibold;
+	font-size: 36px;
+	padding-top: 45px;
+	text-align: center;
+	color: #f70074;
+}
+
+#portfolio h2{
+	font-family: Montserrat,bold;
+	font-size: 24px;
+	padding-top: 50px;
+	line-height: 30px;
+}
+
+#portfolio h3 p{
+	font-family: Montserrat;
+	font-size: 35px;
+	line-height: 40px;
+	margin-left: 30px;
+	padding-left: 20px;
+}
+
+#portfolio img rogue-pickings-thumbnail{
+	float: left;
+	height: 330px;
+	width: 500px;
+}
+
+#portfolio img jubilee-thumbnail{
+	height: 330px;
+	width: 500px;
+	padding-top:100px;
+}
+
+#portfolio img holstee-thumbnail{
+	height: 330px;
+	width: 500px;
+	float: left;
+}
+
+/******About******/
+#about{
+	height: 625px;
+	background: url('../img/about-me.png');
+	background-size: cover;
+	clear:both;
+}
+
+#about h1{
+	font-family: Source Pro Code, semibold;
+	color: #fa0075;
+	font-size: 36px;
+	text-align: center;
+	padding-top:25px;
+}
+
+#about h2{
+	font-family: Montserrat, bold;
+	font-size: 24px;
+	color: #1f202b;
+}
+
+#about span{
+	color: #ffffff;
+}
+
+#about p{
+	font-family: Satisfy, cursive;
+	font-size: 24px;
+	color: #1f202b;
+}
+
+#about img{
+	height:360px;
+	width:295px;
+	padding-left: 430px;
+	padding-bottom: 200px;
+}
+/****Contact****/
+#contact{
+    clear: both;
+    height:450px;
+}
+
+#contact h2{
+	text-align: center;
+	font-family: Source Code Pro, semibold;
+	font-size: 36px;
+	color:#f70074;
+}
+
+#contact h3{
+	font-family: Montserrat, bold;
+	font-size: 24px;
+	padding-top: 120px;
+	text-align: center;
+}
+
+#contact p{
+	font-family: Montserrat;
+	font-size: 24px;
+	text-align: center;
+}
+
+#contact img{
+	padding-left: 55px;
+}
+
+/****Footer*****/
+footer{
+	text-align: center;
+	clear: both;
+}
